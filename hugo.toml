@@ -2,7 +2,7 @@
 # https://gohugo.io/configuration/
 
 baseURL = "https://fhlkfds.github.io/liam-portfolio/"
-languageCode = "en-us"
+locale = "en-us"
 title = "Liam Decareaux — System Administrator"
 theme = "liam-theme"
 enableRobotsTXT = true
@@ -38,6 +38,10 @@ enableGitInfo = true
   name = "Contact"
   pageRef = "/contact"
   weight = 4
+
+# Allow raw HTML in Markdown (for contact page SVG icons)
+[markup.goldmark.renderer]
+  unsafe = true
 
 # Syntax highlighting (optional, subtle)
 [markup.highlight]

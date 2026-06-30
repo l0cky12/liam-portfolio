@@ -23,7 +23,7 @@
 <section class="recent-posts">
   <h2>Recent Posts</h2>
   <div class="post-list">
-    {{ range first 3 .Site.RegularPages (where "Section" "==" "blog") }}
+    {{ range first 3 (where .Site.RegularPages "Section" "==" "blog") }}
       {{ partial "blog-card.html" . }}
     {{ end }}
   </div>
