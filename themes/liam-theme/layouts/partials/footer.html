@@ -11,8 +11,33 @@
   </div>
 </footer>
 <script>
-// Simple mobile nav toggle
+// Mobile nav toggle
 document.querySelector('.nav-toggle')?.addEventListener('click', function() {
   document.querySelector('.nav').classList.toggle('open');
 });
+
+// Theme toggle — dark is default; persists choice in localStorage
+(function() {
+  var toggle = document.getElementById('theme-toggle');
+  if (!toggle) return;
+
+  // Apply saved theme on load
+  var saved = localStorage.getItem('theme');
+  if (saved) {
+    document.documentElement.setAttribute('data-theme', saved);
+  }
+
+  toggle.addEventListener('click', function() {
+    var current = document.documentElement.getAttribute('data-theme');
+    // If currently light (explicit or auto), switch to dark
+    var isLight = current === 'light';
+    if (!current) {
+      // Check auto state via matchMedia
+      isLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+    }
+    var next = isLight ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+})();
 </script>
