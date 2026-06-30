@@ -43,8 +43,10 @@ enableGitInfo = true
 [markup.goldmark.renderer]
   unsafe = true
 
-# Syntax highlighting (optional, subtle)
+# Syntax highlighting — noClasses=false generates CSS classes (not inline styles)
+# so our CSS vars control the background/text colors per theme
 [markup.highlight]
   style = "github"
   lineNos = false
   codeFences = true
+  noClasses = false
