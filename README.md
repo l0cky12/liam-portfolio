@@ -78,7 +78,7 @@ This site is configured for automatic deployment via GitHub Actions. See `.githu
 1. Push changes to the `main` branch
 2. GitHub Actions runs the Hugo build
 3. The built `public/` folder is deployed to GitHub Pages
-4. The site is live at `https://fhlkfds.github.io/liam-portfolio/`
+4. The site is live at `https://l0cky12.github.io/liam-portfolio/`
 
 ### One-time GitHub Pages setup
 

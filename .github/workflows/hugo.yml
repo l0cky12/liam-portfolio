@@ -51,7 +51,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "https://fhlkfds.github.io/liam-portfolio/" \
+            --baseURL "https://l0cky12.github.io/liam-portfolio/" \
             --destination "public"
 
       - name: Upload artifact
