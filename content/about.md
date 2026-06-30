@@ -3,11 +3,11 @@ title = "About"
 summary = "About Liam Decareaux — System Administrator and K-12 IT professional."
 +++
 
-Liam Decareaux is a System Administrator at NOMMA, where he manages Linux servers, administers Microsoft 365 environments, and provides desktop support for staff and students in a K‑12 setting. He brings four years of IT experience to the role — two years as a Desktop Support Technician and two years as a System Administrator.
+I'm Liam Decareaux, a System Administrator at NOMMA. I manage Linux servers, administer Microsoft 365 environments, and provide desktop support for staff and students in a K‑12 setting. I have four years of IT experience — two years as a Desktop Support Technician and two years as a System Administrator.
 
-He enjoys fixing technical issues and helping people whenever he can. Whether it's troubleshooting a stubborn server, rolling out a new M365 policy, or helping someone recover a lost file, Liam takes pride in keeping systems running smoothly so the people who rely on them can do their work without friction.
+I enjoy fixing technical issues and helping people whenever I can. Whether it's troubleshooting a stubborn server, rolling out a new M365 policy, or helping someone recover a lost file, I take pride in keeping systems running smoothly so the people who rely on them can do their work without friction.
 
-Liam spends his days deep in IT operations — maintaining server infrastructure, handling user support requests, and finding practical ways to make the environment more reliable and secure.
+My day-to-day is deep in IT operations — maintaining server infrastructure, handling user support requests, and finding practical ways to make the environment more reliable and secure.
 
 ## Experience
 
@@ -19,4 +19,4 @@ Liam spends his days deep in IT operations — maintaining server infrastructure
 
 ## Why This Blog?
 
-Liam created this blog to post about fun projects he is working on at home or at work, and to use it as documentation for himself and others. If a solution took two hours to figure out, it belongs here — so the next time the same problem comes up, the answer is already written down.
+I created this blog to post about fun projects I'm working on at home or at work, and to use it as documentation for myself and others. If a solution took two hours to figure out, it belongs here — so the next time the same problem comes up, the answer is already written down.
