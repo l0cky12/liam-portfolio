@@ -1,0 +1,12 @@
+{{ define "main" }}
+<section class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="page-desc">{{ . }}</p>{{ end }}
+</section>
+
+<section class="post-list">
+  {{ range .Pages }}
+    {{ partial "blog-card.html" . }}
+  {{ end }}
+</section>
+{{ end }}

@@ -1,0 +1,46 @@
+# Hugo configuration for Liam Decareaux portfolio/blog
+# https://gohugo.io/configuration/
+
+baseURL = "https://fhlkfds.github.io/liam-portfolio/"
+languageCode = "en-us"
+title = "Liam Decareaux — System Administrator"
+theme = "liam-theme"
+enableRobotsTXT = true
+enableGitInfo = true
+
+# Author / site metadata
+[params]
+  author = "Liam Decareaux"
+  role = "System Administrator at NOMMA"
+  description = "Portfolio and technical blog for Liam Decareaux — Linux servers, Microsoft 365, desktop support, and K‑12 IT infrastructure."
+  tagline = "Solving technical problems, supporting users, and managing infrastructure — one ticket at a time."
+  github = "https://github.com/fhlkfds"
+  linkedin = "https://www.linkedin.com/feed/"
+
+# Main navigation menu
+[menus]
+[[menus.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
+
+[[menus.main]]
+  name = "Blog"
+  pageRef = "/blog"
+  weight = 2
+
+[[menus.main]]
+  name = "About"
+  pageRef = "/about"
+  weight = 3
+
+[[menus.main]]
+  name = "Contact"
+  pageRef = "/contact"
+  weight = 4
+
+# Syntax highlighting (optional, subtle)
+[markup.highlight]
+  style = "github"
+  lineNos = false
+  codeFences = true
