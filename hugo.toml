@@ -1,7 +1,7 @@
 # Hugo configuration for Liam Decareaux portfolio/blog
 # https://gohugo.io/configuration/
 
-baseURL = "https://l0cky12.github.io/liam-portfolio/"
+baseURL = "https://liamdecareaux.com/"
 locale = "en-us"
 title = "Liam Decareaux — System Administrator"
 theme = "liam-theme"
