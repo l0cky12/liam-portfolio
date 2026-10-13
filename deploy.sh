@@ -7,7 +7,7 @@ set -euo pipefail
 # ==============================
 
 VPS_USER="liam"
-VPS_HOST="45.76.68.204"
+VPS_HOST="45.79.28.19"
 SITE_DIR="/var/www/liamdecareaux"
 LOCAL_BUILD_DIR="public"
 REMOTE="${VPS_USER}@${VPS_HOST}"
